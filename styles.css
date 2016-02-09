@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  max-height: 2000px;
+}
+
+header {
+  height: 300px;
+  border: 6px solid white;
+  margin-top: 100px;
+}
+
+.article {
+  max-width: 1000px;
+  max-height: 300px;
+  margin-bottom: 50px;
+}
+
+.article h1 {
+  max-width: 320px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  margin-right: 23px;
+}
+
+.article h2 {
+  max-width: 320px;
+  height: 300px;
+  background-color: white;
+  display: inline;
+  float: left;
+  margin-right: 23px;
+}
+
+.article h3 {
+  max-width: 320px;
+  height: 300px;
+  background-color: white;
+  display: inline;
+  float: left;
+}
+
+.skaters {
+  max-width: 1000px;
+  max-height: 300px;
+}
+
+.one {
+  max-width: 320px;
+  height: 200px;
+  border: 4px solid white;
+  float: left;
+  text-align: center;
+  padding: 30px;
+  margin-right: 23px;
+}
+
+.two {
+  max-width: 320px;
+  height: 200px;
+  border: 4px solid white;
+  float: left;
+  text-align: center;
+  padding: 30px;
+  margin-right: 2px;
+}
+
+.three {
+  max-width: 320px;
+  height: 445px;
+  border: 4px solid white;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 120px 0px 120px 0px;
+}
+
+.four {
+  max-width: 685px;
+  height: 200px;
+  border: 4px solid white;
+  float: left;
+  text-align: center;
+  padding: 110px;
+  margin-right: 2px;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 0%;
+}
+
+.boards {
+  width: 1000px;
+  height: 300px;
+  background-color: white;
+  float: left;
+}
