@@ -15,3 +15,328 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { ... }
+
+
+
+body {
+  margin: 0;
+  background-image: url(skateboard-images/bg.jpg);
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  max-height: 2255px;
+}
+
+.sub {
+  font-size: 25px;
+  margin: 50px;
+}
+
+nav {
+  max-width: 1024px;
+  max-height: 40px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav ul li {
+  list-style-type: none;
+  width: 248px;
+  height: 40px;
+  background-color: rgb(150, 0, 0);
+  font-size: 20px;
+  margin: 10px auto;
+  display: inline;
+  color: gray;
+}
+
+li {
+    padding: 8px 50px 8px 50px;
+}
+
+header {
+  height: 357px;
+  border: 10px solid white;
+  padding-left: 18px;
+  padding-top: 20px;
+  margin-top: 147px;
+  margin-bottom: 69px;
+  background-image: url(/Users/Erik/code/2.1.2-responsive/skateboard-images/top-image.png);
+}
+
+#read {
+  max-width: 1024px;
+  max-height: 350px;
+  margin: 0 auto;
+}
+
+.tony {
+  max-width: 334px;
+  height: 350px;
+  background-color: white;
+  float: left;
+  margin-right: 11px;
+  padding: 30px 28px 0px 28px;
+}
+
+.tony h1 {
+  font-size: 25px;
+}
+
+.tony p {
+  font-size: 13px;
+  padding-top: 25px;
+}
+
+.rodney {
+  max-width: 334px;
+  height: 350px;
+  background-color: white;
+  display: inline;
+  float: left;
+  margin-right: 11px;
+  padding: 30px 28px 0px 28px;
+}
+
+.rodney h2{
+  font-size: 25px;
+}
+
+.rodney p {
+  font-size: 13px;
+  padding-top: 25px;
+}
+
+.ray {
+  max-width: 334px;
+  height: 350px;
+  background-color: white;
+  display: inline;
+  float: left;
+  padding: 30px 28px 0px 28px;
+}
+
+.ray h3 {
+  font-size: 25px;
+}
+
+.ray p {
+  font-size: 13px;
+  padding-top: 25px;
+}
+
+#skaters {
+  max-width: 1024px;
+  max-height: 350px;
+  margin-bottom: 0 auto;
+}
+
+.one {
+  max-width: 334px;
+  height: 232px;
+  border: 4px solid white;
+  float: left;
+  text-align: center;
+  margin-right: 11px;
+  margin-top: 10px;
+}
+
+.one img {
+  width: 326px;
+  height: 224px;
+}
+
+.two {
+  max-width: 334px;
+  height: 232px;
+  border: 4px solid white;
+  float: left;
+  margin-right: 11px;
+  margin-top: 10px;
+}
+
+.two img {
+  width: 326px;
+  height: 224px;
+}
+.three {
+  max-width: 334px;
+  height: 475px;
+  border: 4px solid white;
+  // float: right;
+  margin-top: 10px;
+}
+
+.three img {
+  width: 326px;
+  height: 467px;
+}
+
+.four {
+  max-width: 679px;
+  height: 232px;
+  border: 4px solid white;
+  float: left;
+  margin-right: 11px;
+  margin-top: 10px;
+  background-image: url(/Users/Erik/code/2.1.2-responsive/skateboard-images/sk8er-1.png);
+}
+
+.four img {
+  width: 671px;
+  height: 226px;
+}
+
+.boards {
+  // width: 0 auto;
+  background-color: white;
+  // float: left;
+  margin: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.boards img {
+  padding: 16px;
+}
+
+.contact {
+  width: 1024px;
+  height: 360px;
+  background-color: white;
+  // float: left;
+  margin-bottom: 95px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  // display: inline-block;
+
+}
+
+/* Tablet */
+@media screen and (max-width: 992px){
+  header {
+    width: auto;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  ul {
+    float: none;
+  }
+
+  li {
+    padding: 8px 10px 8px 10px;
+
+  }
+.read {
+  width: auto;
+  float: left;
+}
+
+.tony {
+  margin-left: 10px;
+}
+
+.rodney{
+  float: left;
+}
+
+.ray {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.one {
+  position: relative;
+  top: 360px;
+  margin-left: 10px;
+}
+
+.three {
+  // float: left;
+  // position: relative;
+  left: 355px;
+}
+
+.four {
+  margin-left: 10px;
+}
+
+.boards {
+  // float: left;
+  // width: auto;
+}
+
+.boards img {
+  padding: 0px;
+}
+
+.contact {
+  width: auto;
+  height: 300px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 95px;
+}
+
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px){
+
+  header {
+    width: auto;
+  }
+
+  nav {
+    width: auto;
+  }
+  nav ul li {
+    float: none;
+    font-size: 15px;
+    color: gray;
+  }
+
+  li {
+    padding: 4px 8px 4px 8px;
+
+  }
+
+  .skaters {
+    width: auto;
+  }
+
+  .rodney {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .one {
+    margin-top: 370px;
+  }
+
+  .two {
+    margin-top: 370px;
+    margin-left: 10px;
+    margin-right: 300px;
+  }
+
+  .three {
+    // position: absolute;
+    // top: 1720px;
+  }
+
+  .contact {
+    margin-top: 130px;
+  }
+}
