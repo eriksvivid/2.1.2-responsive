@@ -1,20 +1,16 @@
-/* Bootstrap Variables */
-$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-/* Import Bootstrap */
-@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .container{
   width:95%;
